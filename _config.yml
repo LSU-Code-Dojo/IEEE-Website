@@ -1,3 +1,4 @@
 name: IEEE
 markdown: redcarpet
 pygments: true
+timezone: America/Chicago
