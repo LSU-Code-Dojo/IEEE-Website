@@ -1,9 +1,30 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!--<p class="meta">{{ page.date | date_to_string }}</p>-->
 
 <div class="post">
-{{ content }}
+	<article  class="post type-post format-standard hentry">
+
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="{{page.url}}" title="Permalink" rel="bookmark">{{page.title}}</a></h1>
+						<p class="meta">Posted on </span><a href="#" rel="bookmark"><time class="entry-date" datetime="{{ page.date | date_to_xmlschema}}">{{ page.date | date_to_string }}</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="#" title="View all posts by {{page.author}}" rel="author">{{page.author}}</a></span></p>
+			
+				<div class="entry-meta">
+			</div>
+			
+		</header>
+
+		{{ content }}
+
+		<footer class="entry-meta">
+			Posted in 
+			
+			{% for tag in page.tags %} 
+			<a href="{{site.url}}/tags/{{ tag | uri_escape }}">{{ tag }}</a>
+			{% endfor %} 
+		</footer>
+	</article>
+
+
 </div>

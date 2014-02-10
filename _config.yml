@@ -1,4 +1,5 @@
-name: IEEE
+name: IEEE @ LSU
 markdown: redcarpet
 pygments: true
+#baseurl: http://IEEE-Website.lsucodedojo.com
 timezone: America/Chicago
