@@ -1,5 +1,12 @@
 name: IEEE @ LSU
+url: http://ieee.lsu.edu
 markdown: redcarpet
 pygments: true
 #baseurl: http://IEEE-Website.lsucodedojo.com
 timezone: America/Chicago
+
+description: We are the LSU student branch of the Institute of Electrical and Electronics Engineers (IEEE), the world’s leading technical professional society. Here at LSU we pride ourselves on our combination of academic learning in the classroom as well as professional preparation outside of the classroom, and many past IEEE members have stated that their involvement in IEEE provided them with the opportunities and skills that are necessary to succeed in their careers.
+
+    Some of the many exciting activities that we participate in include the IEEE robotics competition, company recruitment, informational presentations, and community outreach programs. Students can also get involved in interesting projects with their peers and get the chance to apply the knowledge they have learned in the classroom to real world problems.
+author: IEEE student branch at Louisiana State University
+
