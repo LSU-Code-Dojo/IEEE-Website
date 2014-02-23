@@ -9,4 +9,5 @@ description: We are the LSU student branch of the Institute of Electrical and El
 
     Some of the many exciting activities that we participate in include the IEEE robotics competition, company recruitment, informational presentations, and community outreach programs. Students can also get involved in interesting projects with their peers and get the chance to apply the knowledge they have learned in the classroom to real world problems.
 author: IEEE student branch at Louisiana State University
+exclude: [externals,] 
 
