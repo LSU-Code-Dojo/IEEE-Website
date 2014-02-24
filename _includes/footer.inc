@@ -1,19 +1,13 @@
-<footer>
-          <div class="footer">
-            <div class="contact">
-              <p>
-                ieee.lsu@gmail.com
-              </p>
-            </div>
-            <div class="contact">
-                <p>
-                    <a href="http://www.ece.lsu.edu">ECE</a> The LSU Department of Electrical and Computer Engineering <br/>
-                </p>
-            </div>
-          </div>
-        </div>
-
-				<nav>
-					<a class="extra" href="/">home</a>
-				</nav>
+<!-- footer -->
+<footer class="footer">
+	<small>&copy; IEEE @ LSU | </small>
+	<!-- &middot; -->
+	<nav>
+		<ul>
+			<li><a href="/about">About</a></li>
+			<li><a href="/contact">Contact</a></li>
+			<li>|</li>
+			<li><a href="#">Back to top</a></li>
+		</ul>
+	</nav>
 </footer>
