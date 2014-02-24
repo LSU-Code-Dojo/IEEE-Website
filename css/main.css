@@ -4,33 +4,17 @@
 /*
 /*****************************************************************************/
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
 body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
   text-align: center;
+  margin-top: 40px;
 }
 
-h1 {
-  font-size: 2em;
-}
-
-h2, h3, h4, h5, h6 { }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: #461D7C; }
+a:hover   { color: #999999; }
+a:link    { color: #461D7C; }
+a:visited { color: #FDD023; }
 
 /*****************************************************************************/
 /*
@@ -66,10 +50,6 @@ a:visited { color: #a0a; }
   line-height: 1.5em;
 }
 
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
 
 .title {
   display: inline-block;
@@ -98,30 +78,29 @@ a:visited { color: #a0a; }
 }
 
 .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
 }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
+footer { 
+	height: 25em;
+    margin-top: 2em;
+	padding-top: 3em;
+	background-color: #2c2c2c;
+    border-top: 4px solid #eee;
+	color: #eeeeee;
+    overflow: hidden;
 }
 
-.footer .contact a {
-  color: #8085C1;
+footer a:link {
+    color: #BC2DFF;
 }
-
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
+footer a:visited {
+    color: #BC2DFF;
 }
-
-.footer .rss img {
-  border: 0;
+footer a:hover {
+    color: #BC2DFF;
+}
+footer a:active {
+    color: #BC2DFF;
 }
 
 /*****************************************************************************/
@@ -177,3 +156,14 @@ section#event #event_title span {
 	border-left: 1px solid grey;
 	border-right: 1px solid grey;
 }
+
+/********************/
+/*
+/* Custom
+/*
+/********************/
+
+.navbar-brand {
+    color: #B25FE0;    
+}
+
