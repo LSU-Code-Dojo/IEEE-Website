@@ -103,6 +103,14 @@ a:visited { color: #a0a; }
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+
+}
+
+footer { 
+	height: 25em;
+	padding-top: 3em;
+	background-color: #2c2c2c;
+	color: #ffffff;
 }
 
 .footer .contact {
