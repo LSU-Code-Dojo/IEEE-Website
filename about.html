@@ -1,0 +1,42 @@
+---
+layout: default
+title: About
+---
+
+<div class="row">
+  <p>We are the LSU student branch of the Institute of Electrical and Electronics Engineers (IEEE), the world’s leading technical professional society. Here at LSU we pride ourselves on our combination of academic learning in the classroom as well as professional preparation outside of the classroom, and many past IEEE members have stated that their involvement in IEEE provided them with the opportunities and skills that are necessary to succeed in their careers.</p>
+  <p>Some of the many exciting activities that we participate in include the IEEE robotics competition, company recruitment, informational presentations, and community outreach programs. Students can also get involved in interesting projects with their peers and get the chance to apply the knowledge they have learned in the classroom to real world problems.</p>
+</div>
+<div class="row">
+  <h2>Officers</h2>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      {% for officer in site.data.officers %} 
+      <tr>
+        <td>{{ officer.position }}</td>
+        <td>{{ officer.name }}</td>
+        <td><a href="mailto:{{ officer.email_address }}">{{ officer.email_address }}</a></td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+<div class="row">
+  <h2>Advisors</h2>
+  <div class="table-responsive">
+    <table class="table table-striped">
+      {% for advisor in site.data.advisors %}
+      <tr>
+        <td>{{ advisor.position }}</td>
+        <td>{{ advisor.name }}</td>
+        <td><a href="mailto:{{ advisor.email_address }}">{{ advisor.email_address }}</a></td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+<div class="row">
+  <h2>Bylaws</h2>
+  <p>You can view our most current set of bylaws here: <a href="{{ site.baseurl }}assets/IEEE-Bylaws.pdf">IEEE Bylaws PDF</a></p>
+</div>
